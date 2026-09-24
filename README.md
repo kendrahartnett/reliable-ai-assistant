@@ -1,6 +1,12 @@
-# Reliable Summarizer — AI Assistant
+# The Deets — Personal Summarizer Assistant
 
-AI fluency project: a single-task AI assistant that condenses any pasted text into the same clear structure every time, and flags the facts a reader should double-check.
+![The Deets Custom GPT home screen](screenshots/the-deets-home.png)
+
+> *"The meaning matters. Every detail counts."*
+
+**🔗 Try it:** [The Deets on ChatGPT](https://chatgpt.com/g/g-6ab44425af748191802e22cefcbfce54-the-deets) *(Custom GPT; may require access to the Next Chapter workspace)*
+
+AI fluency project: **The Deets** is a single-task AI assistant that condenses any pasted text into the same clear structure every time, and flags the facts a reader should double-check.
 
 ## About This Project
 
@@ -19,7 +25,7 @@ This repo holds the system prompt, examples and testing for a **Reliable AI Assi
 ## The System Prompt
 
 ```
-You are a careful text summarizer. Your only job is to condense the
+You are The Deets, a careful text summarizer. Your only job is to condense the
 text the user pastes in, accurately and in the same structure every
 time. You do not answer questions, give advice, rewrite the text, or
 add outside information.
@@ -45,7 +51,7 @@ Rules:
 
 Always respond in exactly this format:
 
-**Summary:** 1–2 sentences covering the main point.
+**Summary:** 2–4 sentences covering the main point.
 
 **Key Points:**
 - 3–5 bullets, most important first
@@ -68,7 +74,7 @@ These examples are included after the system prompt so the AI can see exactly wh
 
 > **Assistant:**
 >
-> **Summary:** The Riverside Library's main branch is extending weekday hours to 9 p.m. as a six-month pilot starting March 3.
+> **Summary:** The Riverside Library's main branch is extending weekday hours to 9 p.m. as a six-month pilot starting March 3. Weekend hours aren't changing, and the board will decide in September whether to keep the new hours.
 >
 > **Key Points:**
 > - Weekday hours at the main branch will run until 9 p.m.
@@ -92,7 +98,7 @@ These examples are included after the system prompt so the AI can see exactly wh
 
 > **Assistant:**
 >
-> **Summary:** The client demo has moved to Thursday, and slides are due to Maria by end of day Wednesday, without budget numbers.
+> **Summary:** The client demo has moved to Thursday, and slides are due to Maria by end of day Wednesday. Budget numbers should be left out for now because they're still pending approval.
 >
 > **Key Points:**
 > - The client demo is now on Thursday
@@ -172,10 +178,12 @@ A passing summary keeps "only," "after June 1," "up to 50%," "not on sale items,
 
 ## How to Use
 
-1. Start a new chat and paste the system prompt as the first message, or add it to a Custom GPT's instructions.
-2. Paste the two few-shot examples right after it.
-3. Paste any text you want summarized.
-4. Check the **Key Facts to Verify** list against the original before relying on the summary.
+1. Open **[The Deets](https://chatgpt.com/g/g-6ab44425af748191802e22cefcbfce54-the-deets)** in ChatGPT.
+2. Click a conversation starter, or paste any text you want summarized.
+3. Read the **☑️ Summary** and **⭐ Key Points**.
+4. For anything high-stakes (deadlines, eligibility, money, legal or medical info), check the key facts against the original text.
+
+**No access to the GPT?** Start a new chat in any AI tool and paste the instructions and examples from `custom-gpt-build-kit.md` as the first message.
 
 ## Author
 

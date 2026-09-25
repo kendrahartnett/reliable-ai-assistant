@@ -70,6 +70,12 @@ Spill the tea on this reading:
 What are the deets on this article?
 ```
 
+### Recommended model
+```
+GPT-5.6 Sol (Instant mode)
+```
+Fast responses for a focused, single-task assistant.
+
 ### Knowledge
 Leave empty. The summarizer should only use what you paste, so there's nothing to upload.
 
@@ -109,6 +115,8 @@ Log every change in your Prompt Log: **what failed → what I changed → why �
 1. Click **Create** (or **Update**) in the top-right corner.
 2. Sharing: choose **Anyone in [your workspace]**, or **Anyone with the link** if your workspace allows it.
 3. Copy the link into the README under "How to Use."
+
+**✅ Published link:** https://chatgpt.com/g/g-6ab44425af748191802e22cefcbfce54-the-deets
 
 Backup plan: workspace GPTs may not open for people outside the workspace. Screenshot the Configure tab and each test result so your instructor can see everything even without access. The README stays the full documented version.
 

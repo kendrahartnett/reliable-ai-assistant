@@ -3,6 +3,7 @@
 **Project:** Week 2 "Build a Reliable AI Assistant" (Next Chapter Project, AI Fluency)
 **Assistant:** The Deets — Personal Summarizer Assistant (originally named "Essence")
 **Built by:** Kendra Hartnett
+**Model:** GPT-5.6 Sol (Instant mode)
 **GPT:** https://chatgpt.com/g/g-6ab44425af748191802e22cefcbfce54-the-deets
 
 This log records every prompt I used to scope, build, test and refine The Deets, in order. It covers three places I worked:
@@ -181,6 +182,9 @@ Test results were scored with ChatGPT's help and pasted to Claude to log and dou
 
 **47.** *"I need to add a prompt log in an md doc to the project file with all of my prompts"*
 → This file.
+
+**48.** *"this is the model I set to run The Deets: GPT-5.6 Sol in Instant mode"*
+→ Recorded as the recommended model in the README, spec sheet and build kit.
 
 ---
 
